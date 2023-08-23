@@ -2,7 +2,7 @@
 Solves a simple AK-OLG-model for closed economy in Julia
 
 ## About
-Shows how to solve a simple deterministic overlapping-generations model (OLG) of Auerbauch-Kotlikoff type, solving for the transition path between two steady-states. The code used global variables. Cohorts can be computed in parallel.
+Shows how to solve a simple deterministic overlapping-generations model (OLG) of Auerbauch-Kotlikoff type, solving for the transition path between two steady-states. The code uses global variables. Cohorts can be computed in parallel.
 
 A model description can be found here: <https://github.com/solveCGE/solveOLG_doc>.
 

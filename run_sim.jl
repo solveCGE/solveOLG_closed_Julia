@@ -66,7 +66,7 @@ gamv[60:nag,:] = 1.0.-(1.0.-gamv[60:nag,:])*0.9; gamv[nag,:].=0; gamz = per2coh(
 ##########################
 
 # Solve transition path to new steady state
-solveOLG(1, 200, 1e-2)
+solveOLG(1, 200, 1e-4)
 
 # some transition plots
 if genplots
